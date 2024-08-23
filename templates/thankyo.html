@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+  <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-sm text-center">
+    <h1 class="text-2xl font-semibold mb-6">Thank You!</h1>
+    <p class="text-lg text-gray-700">You have successfully subscribed with the email:</p>
+    <p class="mt-4 text-lg font-bold text-blue-500">{{ email }}</p>
+    <p class="mt-4 text-lg font-bold text-blue-500">Username:{{ username }}</p>
+    <p class="mt-4 text-lg font-bold text-blue-500">domain:{{ domain}}</p>
+
+  </div>
+</body>
+</html>
