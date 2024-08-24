@@ -11,9 +11,9 @@ def home():
 @app.route("/about")
 def about():
     email=request.args.get("email")
- 
-    u=email[:email.index("@")]
-    do=email[email.index("@")+1 :]
+    k=email.split(" ")
+    u=k[: k.index("@")]
+    do=k[k.index("@")+1 :]
     return render_template("thankyo.html",email=email,username=u,domain=do)
 
 if __name__=="__main__":
