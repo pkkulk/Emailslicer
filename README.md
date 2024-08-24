@@ -1,7 +1,9 @@
 # emailslicer
 
 ## Description
-A simple Flask application with a form to collect email addresses and display them on a thank-you page.
+## Description
+A simple Flask application with a form to collect email addresses and display them on a thank-you page. The project uses Tailwind CSS for styling.
+
 
 ## Setup
 1. Clone the repository:
