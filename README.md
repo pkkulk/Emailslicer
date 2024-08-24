@@ -6,4 +6,4 @@ A simple Flask application with a form to collect email addresses and display th
 ## Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-flask-app.git
+   git clone https://github.com/pkkulk/emailslicer.git
